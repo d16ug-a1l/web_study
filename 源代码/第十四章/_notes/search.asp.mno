@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:nid;datatype:INTEGER,name:title;datatype:LONGCHAR,name:N_Fname;datatype:LONGCHAR,name:path;datatype:LONGCHAR,name:content;datatype:LONGCHAR,name:typeid;datatype:INTEGER,name:typename;datatype:LONGCHAR,name:zuozhe;datatype:LONGCHAR,name:tuijian;datatype:INTEGER,name:Nfrom;datatype:LONGCHAR,name:shenghe;datatype:BIT,name:about;datatype:LONGCHAR,name:hits;datatype:INTEGER,name:review;datatype:LONGCHAR,name:selectpic;datatype:INTEGER,name:picurl;datatype:LONGCHAR,name:picchk;datatype:INTEGER,name:dateandtime;datatype:DATETIME" />
+</info>

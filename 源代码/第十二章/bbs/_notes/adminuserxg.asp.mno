@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RequestQString1" value="username" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+	<infoitem key="UD_Recordset1" value="name:usrname;datatype:LONGCHAR,name:passwd;datatype:LONGCHAR" />
+	<infoitem key="UD_requestCount" value="0" />
+</info>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="PageAccessControlMethod" value="dontUseAccessList" />
+	<infoitem key="UD_applicationCount" value="0" />
+	<infoitem key="UD_sessionCount" value="4" />
+	<infoitem key="UD_Session1" value="orderid" />
+	<infoitem key="UD_Session2" value="sp_id" />
+	<infoitem key="UD_Session3" value="price" />
+	<infoitem key="UD_Session4" value="MM_Username" />
+</info>

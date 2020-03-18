@@ -1,0 +1,7 @@
+%%#2//广告组件AD Rotator
+<font face="华文行楷" size="6" color="#0000FF">广告组件AD Rotator</font>
+%%#4//浏览器功能判断组件Browser Capabilities
+<font face="华文行楷" size="6" color="#FF0000">浏览器功能判断组件</font>
+%%#6//内容链接组件Content Linking
+<font face="华文行楷" size="6" color="#00FF00">内容链接组件</font>
+

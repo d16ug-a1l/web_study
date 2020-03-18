@@ -1,0 +1,6 @@
+logon.asp的用户名是：admin
+密码是：972130b75066c825
+其他文件:
+
+用户名：admin
+密码：ADMIN

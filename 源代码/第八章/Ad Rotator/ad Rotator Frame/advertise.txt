@@ -1,0 +1,13 @@
+REDIRECT ARRedirect.asp
+WIDTH    100
+HEIGHT   75
+BORDER	 1
+*
+Photo1.jpg
+Photo1.htm
+广告链接1
+1
+Photo2.jpg
+Photo2.htm
+广告链接2
+2

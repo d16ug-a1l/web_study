@@ -1,0 +1,20 @@
+<HTML><HEAD><TITLE>判断成绩等级</TITLE>
+<SCRIPT  LANGUAGE="VBScript">
+dim num1
+num1 = CInt(InputBox("请输入考试分数")/10)
+Select Case num1
+        Case 10,9
+            document.write("成绩等级为优")
+        Case 8
+            document.write("成绩等级为良")
+        Case 7
+            document.write("成绩等级为中")
+        Case 6
+            document.write("成绩等级为差")
+        Case 5,4,3,2,1,0
+            document.write("成绩等级为不合格")
+         Case else
+            document.write("输入有错")
+   End Select
+</SCRIPT>
+</HEAD><BODY></BODY></HTML>

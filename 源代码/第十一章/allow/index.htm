@@ -1,0 +1,35 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>权 限 管 理 模 块</title>
+</head>
+
+<body>
+<p align="center"><font face="华文行楷" size="6" color="#0000FF">权 限 管 理 模 块</font></p> 
+<P align='center'><font face='华文行楷' size='6' color='#0000FF'>管理功能</font></p> 
+<form method="POST" action="Modify.asp?Type=LM&ID=8">
+<select size='1' name='Select'><option value=Add>增加</option><option value=Modify>修改</option>
+<option value=Delete>删除</option> </select>  
+<p>栏目名称：<input type='LanMu' name='T1' size='20' value='管理功能'></p>
+<p>权限：&nbsp; <input type="checkbox" name="C" value="100">文件主观看<input type="checkbox" name="C" value="300">文件主修改<input type="checkbox" name="C3" value="700">文件主户删除</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="C" value="10">同组用户观看<input type="checkbox" name="C" value="30">同组用户修改<input type="checkbox" name="C" value="70">同组用户删除</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="C" value="1">其他用户观看<input type="checkbox" name="C" value="3">其他用户修改<input type="checkbox" name="C" value="7">其他用户删除</p>
+<p>设置其他用户对本栏目权限</p>
+<p>用户：<select size="1" name="Select1">
+<option value='2'>analy</option><option value='3'>man</option>
+</select>
+<input type="checkbox" name="U" value="ON">观看
+<input type="checkbox" name="U" value="ON">修改
+<input type="checkbox" name="U" value="ON">删除</p>
+<p><input type="submit" value="确定" name="B1"><input type="reset" value="重置" name="B2"></p>	
+</form>	
+
+
+</form>
+</body>
+
+</html>

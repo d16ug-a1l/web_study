@@ -1,0 +1,16 @@
+<HTML>
+<HEAD><TITLE>逻辑运算符</TITLE>
+<SCRIPT LANGUAGE="VBScript"> 
+Dim str
+'在and运算中，只要有一个操作数为假，则整个运算即为假。下面结果为False
+str="15>4 and 'as' >'qw'的值为："&(15>4 and "as">"qw") & vbCrLf
+'在or运算中，只要有一个操作数为真，则整个运算即为真。下面结果为True
+str=str&"15>4 or 'as'>'qw'的值为："&(15>4 or "as">"qw") & vbCrLf
+'在xor运算中，只要有两个操作数的值相同，则整个运算就为False，否则为True。下面结果为True
+str=str&"15>4 xor 'as'>'qw'的值为："&(15>4 xor "as">"qw") & vbCrLf
+str=str&"not(15>4) or 'as'>'qw'的值为："&(not(15>4) or "as">"qw") & vbCrLf
+MsgBox str
+</SCRIPT>
+</HEAD>
+<BODY></BODY>
+</HTML>

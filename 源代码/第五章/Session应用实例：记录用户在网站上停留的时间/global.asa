@@ -1,0 +1,33 @@
+<OBJECT RUNAT=Server SCOPE=Session ID=fso PROGID="Scripting.FileSystemObject">
+</OBJECT>
+<Script Language="VBScript" RunAt="Server">
+Sub Session_OnStart
+	Session("StartTime")=Now()
+	FilePath=Server.MapPath("startTime.txt")
+	If fso.FileExists(FilePath) Then
+		Set fin=fso.OpenTextFile(FilePath,1)
+		If not fin.AtEndOfStream  Then
+			str=Trim(fin.readline)
+			nTime=Cint(str)
+		Else
+			nTime=0
+		End if
+		Session("nTime")=nTime
+		fin.close
+	Else
+		set fin=fso.CreateTextFile(FilePath)
+		fin.writeline "0"
+		fin.close
+		Session("nTime")=0
+	End If
+End Sub
+Sub Session_OnEnd
+	startTime=Session("StartTime")
+	nTime=DateDiff("s",Now(),startTime)
+	Session("nTime")=Session("nTime")+nTime
+	FilePath=Server.MapPath("startTime.txt")
+	Set fin=fso.OpenTextFile(FilePath)
+	fin.writeline "1245"
+	fin.close	
+End Sub
+</Script>

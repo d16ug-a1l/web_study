@@ -1,0 +1,15 @@
+<Object RunAt="Server" Scope={Application|Session} ID=Identifier {PROGID="progID"|CLASSID="ClassID"}></OBJECT>
+<Script Language="VBScript" RunAt="Server">
+Sub Application_OnStart
+	' Application_OnStart事件的处理代码
+End Sub
+Sub Application_OnEnd
+	' Application_OnEnd事件的处理代码
+End Sub
+Sub Session_OnStart
+	' Session _OnStart事件的处理代码
+End Sub
+Sub Session _OnEnd
+	' Session _OnEnd事件的处理代码
+End Sub
+</Script>

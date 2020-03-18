@@ -1,0 +1,16 @@
+<SCRIPT LANGUAGE="VBScript"> 
+Dim Score(4)
+Score(0)=60
+Score(1)=70
+Score(2)=80
+Score(3)=75
+Score(4)=63
+Dim str
+str=""
+'使用For each语句循环输出数组的元素
+'数组中的元素存放在变量Stu_Score中
+For each Stu_Score in score
+	Str=str& Stu_Score& vbCrLf
+Next
+MsgBox str
+</SCRIPT> 

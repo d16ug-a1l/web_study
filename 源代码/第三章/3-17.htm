@@ -1,0 +1,17 @@
+<HTML>
+<HEAD><TITLE>自定义求和函数</TITLE>
+<SCRIPT LANGUAGE="VBScript">
+'定义一个求和函数
+Function add(n)
+   total=0
+   For counter=1 TO n
+     total=total+counter
+   Next 
+   add=total       '给函数名赋值
+End Function
+   Dim n
+   n=20
+   t=add(20)
+   document.write("1加到"&n&"的总和为"&t)
+</SCRIPT>
+</HEAD><BODY></BODY></HTML>

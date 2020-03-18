@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>邮件发送器</title>
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+
+<p align="center"><font face="华文行楷" size="6" color="#0000FF">邮件发送器</font></p>
+<div align="center">
+
+<table border="1" width="37%" id="table1" height="294" cellspacing="1">
+	<tr>
+		<td align="center" valign="top" >
+		<form method="POST" action="Send.asp">
+			<p style="margin-top: 0; margin-bottom: 0" align="left">
+			邮件服务器：<input type="text" name="SMTP" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">
+			收件人邮箱：<input type="text" name="Receive" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">&nbsp;抄&nbsp;&nbsp;&nbsp; 
+			送 ：<input type="text" name="CC" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">&nbsp;密&nbsp;&nbsp;&nbsp; 
+			送 ：<input type="text" name="BCC" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">发件人邮箱：<input type="text" name="Sender" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">发件人密码：<input type="text" name="PWD" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">&nbsp;主&nbsp;&nbsp;&nbsp; 题 ：<input type="text" name="Title" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">&nbsp;附&nbsp;&nbsp;&nbsp; 件 ：<input type="text" name="Attatchment" size="25"></p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">正&nbsp;&nbsp;&nbsp; 文 ：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+			<p style="margin-top: 0; margin-bottom: 0" align="left">
+			<textarea rows="6" name="Content" cols="38"></textarea></p>
+	
+			<p align="left">
+	
+			<input type="submit" value="发送" name="B1">&nbsp;&nbsp;<input type="reset" value="重置" name="B2">  &nbsp;&nbsp;&nbsp;
+			<input type="checkbox" name="C1" value="ON">以HTML格式发送</p>
+			</p>
+		</form>
+		</td>
+	</tr>
+</table>
+
+</div>
+
+</body>
+
+</html>

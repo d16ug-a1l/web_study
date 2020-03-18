@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_requestCookieCount" value="0" />
+	<infoitem key="UD_requestQStringCount" value="0" />
+	<infoitem key="UD_Recordset1" value="name:orderid;datatype:INTEGER,name:sp_id;datatype:INTEGER,name:num;datatype:INTEGER,name:sp_title;datatype:LONGCHAR,name:sp_price;datatype:CURRENCY,name:sp_num;datatype:INTEGER,name:id;datatype:INTEGER" />
+</info>
