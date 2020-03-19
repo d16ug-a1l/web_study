@@ -1,0 +1,21 @@
+<SCRIPT LANGUAGE="VBScript"> 
+Dim score
+'弹出输入数据的对话框，以便用户输入信息。用户输入的信息保存在变量score
+score= InputBox("请输入考试成绩","输入成绩")
+If score>=60 Then
+	'输出成绩大于等于70的等级
+	If score >=70 Then
+		'输出成绩大于等于80的等级
+		If score >=80 Then
+			'输出成绩大于等于90的等级
+			If score >=90 Then
+			 	MsgBox "成绩合格：A"
+			Else MsgBox "成绩合格：B"
+			End If
+		Else MsgBox "成绩合格：C"
+		End If
+	Else MsgBox "成绩合格：D"
+	End If
+Else MsgBox "成绩合格：E"
+End If
+</SCRIPT>
